@@ -1,0 +1,7 @@
+@mixin sizes ($h,$w,$p,$m,$b) {
+  height: $h;
+  width: $w;
+  padding: $p;
+  margin: $m;
+  background: $b;
+}

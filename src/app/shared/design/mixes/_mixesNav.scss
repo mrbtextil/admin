@@ -1,0 +1,8 @@
+@mixin nav ($Fcolor, $color) {
+  & {
+    border-bottom: 2px solid $Fcolor;
+    &:hover {
+      border-bottom: 8px solid $color;
+    }
+  }
+}

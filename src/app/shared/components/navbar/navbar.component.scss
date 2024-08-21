@@ -1,0 +1,17 @@
+@import '../../design/colors/colors';
+@import '../../design/mixes/mixesNav';
+@import '../../design/mixes/mixesSizes';
+
+.nav {
+  @include sizes (30px,90%,1rem,1rem,$primary);
+  &-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @include nav ($primary,$secondary);
+
+  }
+  h1 {
+    color: $tercero;
+  }
+}
